@@ -62,7 +62,7 @@ Based on these metrics, this model would do very well with solving my stakeholde
 
 ## Recommendations
 
-Overall, with the tuned XGBoost model, my stakeholders would be in safe hands since it has such a high accuracy. However, there is a pattern I've noticed in both the model and the visuals:
+In summary, my stakeholders need to classify data based on their own stellar observations. They wish to use machine learning to do this. And overall, with the tuned XGBoost model, my stakeholders would be in safe hands since it has such a high accuracy. However, there is a pattern I've noticed in both the model and the visuals:
 
 - The class frequency visual shows that quasars are the least represented class. So, the data is unbalanced.
 - The model, though highly accurate, slightly underperforms at properly classifying whether an observation is or isn't a quasar. This is found by looking at the F1 score for quasars as well as its precision and recall score
