@@ -42,7 +42,7 @@ The model I chose for my stakeholders is a tuned XGBoost Classifier. The followi
 
 |Metric   |Score|
 |---------|-|
-|Accuracy |98%|
+|Accuracy |<p style="text-align: center;">98%</p>|
 |F1       |Galaxy: %, Quasar: %, Star: %|
 |Precision|Galaxy: %, Quasar: %, Star: %|
 |Recall   |Galaxy: %, Quasar: %, Star: %|
