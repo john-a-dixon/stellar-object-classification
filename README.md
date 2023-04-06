@@ -20,6 +20,12 @@ The stakeholders are a small astronomy company performing similar work but witho
 
 ## Insights
 
+### Class Balance Insight
+
+<p align="center">
+  <img src="/assets/CNT.png" width="60%" height="60%">
+</p>
+
 ### Infrared Insight
 
 <p align="center">
@@ -44,10 +50,14 @@ The model I chose for my stakeholders is a tuned XGBoost Classifier. The followi
 |Metric   |Score|
 |---------|:-:|
 |Accuracy |98%|
-|F1       |Galaxy: %, Quasar: %, Star: %|
-|Precision|Galaxy: %, Quasar: %, Star: %|
-|Recall   |Galaxy: %, Quasar: %, Star: %|
+|F1       |Galaxy: 98.3%, Quasar: 94.9%, Star: 99.8%|
+|Precision|Galaxy: 97.8%, Quasar: 96.8%, Star: 99.7%|
+|Recall   |Galaxy: 98.9%, Quasar: 93.1%, Star: 100%|
 
 </div>
 
-## Recommendations
+Based on these metrics, this model would do very well with solving my stakeholders business problem. With a 98% accuracy, most of their stellar observations would be classified properly. If they are not, it would be easy to pinpoint the likely error, since quasars are the class more frequently classified incorrectly.
+
+## Summary
+
+Overall, with this model they would be in safe hands.
