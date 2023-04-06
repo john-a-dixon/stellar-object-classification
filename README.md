@@ -26,6 +26,8 @@ The stakeholders are a small astronomy company performing similar work but witho
   <img src="/assets/CNT.png" width="60%" height="60%">
 </p>
 
+Galaxies are the more represented class within the data, followed by stars.
+
 ### Infrared Insight
 
 <p align="center">
@@ -58,6 +60,14 @@ The model I chose for my stakeholders is a tuned XGBoost Classifier. The followi
 
 Based on these metrics, this model would do very well with solving my stakeholders business problem. With a 98% accuracy, most of their stellar observations would be classified properly. If they are not, it would be easy to pinpoint the likely error, since quasars are the class more frequently classified incorrectly.
 
-## Summary
+## Recommendations
 
-Overall, with this model they would be in safe hands.
+Overall, with the tuned XGBoost model, my stakeholders would be in safe hands since it has such a high accuracy. However, there is a pattern I've noticed in both the model and the visuals:
+
+- The class frequency visual shows that quasars are the least represented class. So, the data is unbalanced.
+- The model, though highly accurate, slightly underperforms at properly classifying whether an observation is or isn't a quasar. This is found by looking at the F1 score for quasars as well as its precision and recall score
+
+These two combined might become a problem so I recommend the following:
+
+1. Try to find data that is more balanced. It doesn't need to be perfectly balance but should be more balance than the current data. Then, retrain the model on this data.
+2. If balanced data can't be found, use class balancing techniques to balance the current data and then retrain the model on this new balanced data. 
