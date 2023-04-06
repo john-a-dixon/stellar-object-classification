@@ -39,12 +39,13 @@ A stellar observation that has a higher than average red shift in its light is h
 ## ML Modeling
 
 The model I chose for my stakeholders is a tuned XGBoost Classifier. The following are it's metrics:
-
+<p align="center">
 |Metric   |Score|
-|---------|-|
-|Accuracy |<p style="text-align: center;">98%</p>|
+|---------|:-:|
+|Accuracy |98%|
 |F1       |Galaxy: %, Quasar: %, Star: %|
 |Precision|Galaxy: %, Quasar: %, Star: %|
 |Recall   |Galaxy: %, Quasar: %, Star: %|
+</p>
 
 ## Recommendations
