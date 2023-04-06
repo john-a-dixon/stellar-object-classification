@@ -34,6 +34,8 @@ A stellar observation that has a higher than average amount of infrared light is
   <img src="/assets/RS_Viz.png" width="60%" height="60%">
 </p>
 
+A stellar observation that has a higher than average red shift in its light is highly likely a quasar. Stars, on average, don't have much observable red shift while galaxies do, but not as much as quasars.
+
 ## ML Modeling
 
 ## Recommendations
