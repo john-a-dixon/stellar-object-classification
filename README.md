@@ -20,9 +20,15 @@ The stakeholders are a small astronomy company performing similar work but witho
 
 ## Insights
 
+### Infrared Insight
+
 <p align="center">
   <img src="/assets/IR_Viz.png" width="60%" height="60%">
 </p>
+
+A stellar observation that has a higher than average amount of infrared light is more likely a quasar. Stars and galaxies, on average, have less infrared light.
+
+### Red Shift Insight
 
 <p align="center">
   <img src="/assets/RS_Viz.png" width="60%" height="60%">
