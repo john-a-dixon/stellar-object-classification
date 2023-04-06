@@ -12,13 +12,21 @@ This dataset contains 100,000 observations taken by the Sloan Digital Sky Survey
 
 ### The Problem 
 
-Based on light and space characteristics, can we easily classify a stellar observation as a star, galaxy, or quasar?
+Based on light characteristics, can we easily classify a stellar observation as a star, galaxy, or quasar?
 
 ### The Stakeholders
 
-The stakeholders would be another company performing similar work but without the proper means to verify the nature of their observation. Maybe they only have the ability to gather data but not the ability to classfify it. So, they'd need to rely on machine learning as a means of classification.
+The stakeholders are a small astronomy company performing similar work but without the proper means to verify the nature of their observation. They only have the ability to gather light data but not the ability to classfify it. So, they'd need to rely on machine learning as a means of classification.
 
 ## Insights
+
+<p align="center">
+  <img src="/assets/IR_Viz.png" width="60%" height="60%">
+</p>
+
+<p align="center">
+  <img src="/assets/RS_Viz.png" width="60%" height="60%">
+</p>
 
 ## ML Modeling
 
